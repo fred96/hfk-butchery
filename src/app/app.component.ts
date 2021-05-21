@@ -10,6 +10,11 @@ import * as $ from 'jquery';
 export class AppComponent {
   title = 'HFK Butchery';
 
+/*
+mySlideImages = ['../assets/img/slider2.png','../assets/img/slider.png','../assets/img/slider1.png'];                                                                            myCarouselImages =['../assets/img/slider3.png','../assets/img/slider.png','../assets/img/slider1.png'];
+                                                           mySlideOptions={items: 1, dots: true, nav: true};          myCarouselOptions={items: 3, dots: true, nav: true};
+*/
+
 ngOnInit() {
                 //Toggle Click Function
     $("#openSide").click(function(e) {

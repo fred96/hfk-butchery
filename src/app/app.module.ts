@@ -14,6 +14,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { MatIconRegistry } from "@angular/material/icon";
 import { DomSanitizer } from "@angular/platform-browser";
 
+import { OwlModule } from 'ngx-owl-carousel';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { DomSanitizer } from "@angular/platform-browser";
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    OwlModule
 
   ],
   providers: [],
